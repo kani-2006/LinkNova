@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://snaplink-backend.onrender.com/api/:path*"
+    },
+    {
+      "source": "/:shortCode([a-zA-Z0-9]{3,30})",
+      "destination": "https://snaplink-backend.onrender.com/:shortCode"
+    },
+    {
+      "source": "/((?!assets/|favicon.ico|index.html|analytics/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
