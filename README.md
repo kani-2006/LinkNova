@@ -102,3 +102,9 @@ npm run dev
 1. Add a project in Vercel and connect your workspace.
 2. Select `client` as the root directory.
 3. Configure target build outputs to Vite and deploy.
+
+
+
+[https://drive.google.com/file/d/1C3MVGYQqdzEELmj3_FZqPqPTb4_oNZJc/view?usp=sharing]
+
+This project is a part of a hackathon run by https://katomaran.com
